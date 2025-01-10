@@ -35,3 +35,10 @@ function duplicateCount(text) {
   }
   return duplicates
 }
+
+//shorter code
+
+function duplicateCount(text) {
+  return [...text.toLowerCase()].reduce((counts, char) => (counts[char] = (counts[char] || 0) + 1, counts), {})
+    |> Object.values(^).filter(count => count > 1).length;
+}

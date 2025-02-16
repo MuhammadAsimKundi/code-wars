@@ -44,4 +44,18 @@ class Human {
   const [adam, eve] = God.create();
   console.log(adam); // Output: Man { name: 'Adam' }
   console.log(eve);  // Output: Woman { name: 'Eve' }
-  
+
+
+/** Shorter Code */
+class God{
+    static create(){
+      return [new Man('Adam'), new Woman('Eve')]
+    };
+};
+  class Human{
+    constuctor(name){
+      this.name = name;
+    }
+};
+class Man extends Human{};
+class Woman extends Human{};

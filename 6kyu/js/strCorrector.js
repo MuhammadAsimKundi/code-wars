@@ -27,3 +27,9 @@ function correct(string) {
     }
     return correctedText;
 }
+
+/** Short and optimzied code */
+
+function correctText(text) {
+    return [...text].map(char => ({'5': 'S', '0': 'O', '1': 'I'}[char] || char)).join('');
+}

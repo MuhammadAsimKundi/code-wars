@@ -13,4 +13,4 @@ for(let i=0; i<1000; i++){
 
 /** Short and optimzed */
 
-var websites = new Array(1000).fill("codewars");
+var website = new Array(1000).fill("codewars");

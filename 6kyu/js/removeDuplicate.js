@@ -27,9 +27,14 @@ function distinct(a) {
     });
     return a1
 }
-
-/** Another code */
-
-function distinct(a) {
-    return [...new Set(a)];
+// New Code
+function distinctEl(a) {
+    //this will only select distict elements from a array. and will ignore duplicates
+        return [...new Set(a)];
+    
 }
+
+
+/** Fast and robust code */
+
+const distDuplicates = a => Array.from(new Set(a));

@@ -10,7 +10,7 @@ A repository filled with codewars challenges (kata). Currently Ranked #1305 on t
 
 Everyday, the first thing I do is solve Minimum 2 Codewar challenges! 
 
-## Optimizations
+## Optimizations:
 
 I consistently refactor and optimize my code, sometimes for efficiency, sometimes for readability. 
 

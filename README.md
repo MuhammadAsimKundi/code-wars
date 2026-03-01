@@ -2,7 +2,7 @@
 
 ![alt tag](https://github.com/Muhammad-Asim-Kundi/Code-Wars/blob/main/images/Code-wars-22jan.png)
 
-A repository filled with codewars challenges (kata). Currently Ranked #1305 on the global leaderboard, Completed over 1000+ challenges and Push 5 solutions every week.
+A repository filled with codewars challenges (kata). Currently Ranked #1305 on the global leaderboard, Completed over 710+ challenges and Push 5 solutions every week.
 
 ## How It's Made:
 
